@@ -1,0 +1,22 @@
+@use '../custom' as *;
+.faq {
+    
+    h2 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Luckiest Guy", sans-serif;
+        font-size: 3rem;
+        color:#1f3a46;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+    p {
+        font-weight: 400;
+        font-size: 1.2rem;
+        font-family: "Gluten", sans-serif;
+        color:#8c8c8c;
+    }
+}

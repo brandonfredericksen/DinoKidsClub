@@ -1,0 +1,35 @@
+@use '../custom' as *;
+.campanies {
+    padding:  0 0 5rem 0;
+
+    &__logo-box {
+        max-width: 100%;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+        text-align: center;
+        position: relative;
+        font-weight: 900;
+        font-size:2rem;
+        text-align: center;
+
+        span {
+            font-size:1rem;
+            text-transform: uppercase;
+            display: block;
+            font-weight: 600;
+            color: #24e190;
+            background-image: linear-gradient(to left, $primary, $secondary);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        img {
+            height: 100%;
+
+            &:hover {
+                filter: grayscale(120);
+            }
+        }
+    }
+}
