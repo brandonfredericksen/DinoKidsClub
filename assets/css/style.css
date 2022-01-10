@@ -10870,6 +10870,10 @@ textarea.form-control-lg {
     font-size: 3rem;
   }
 }
+.display-3--title span {
+  font-size: 2.3rem !important;
+  display: inline !important;
+}
 
 .border-right {
   border-right: 0;
