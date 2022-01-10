@@ -2,6 +2,15 @@
 .campanies {
     padding:  0 0 5rem 0;
 
+    .legendary {
+        font-size:3rem;
+        color: $light-green;
+
+        span {
+            font-size: 1rem;
+        }
+    }
+
     &__logo-box {
         max-width: 100%;
         margin-bottom: 2rem;
