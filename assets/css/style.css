@@ -10798,7 +10798,14 @@ textarea.form-control-lg {
 }
 
 .mint {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 767.98px) {
+  .mint {
+    font-size: 1rem;
+    display: block;
+    margin: 0px auto;
+  }
 }
 
 .display-2 {
@@ -10809,7 +10816,7 @@ textarea.form-control-lg {
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
-  font-size: 1.9em;
+  font-size: 1.7em;
   font-family: "Luckiest Guy", sans-serif;
   line-height: 0.8em;
   text-shadow: 10px 10px #1f3a46;
@@ -10823,7 +10830,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .display-2--description {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     display: inline-block;
   }
 }

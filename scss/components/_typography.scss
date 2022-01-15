@@ -6,7 +6,13 @@
     font-size:1.4em;
 }
 .mint {
-    font-size:1.5rem;
+    font-size:1.2rem;
+    
+    @include media-breakpoint-down(md) {
+        font-size: 1rem;
+        display: block;
+        margin:0px auto;
+    }
 }
 
 .display-2 {
@@ -17,7 +23,7 @@
     &--intro {
         display: inline-block;
         font-weight: 700;
-        font-size: 1.9em;
+        font-size: 1.7em;
         font-family: "Luckiest Guy", sans-serif;
         line-height: .8em;
         text-shadow:10px 10px #1f3a46;
@@ -31,7 +37,7 @@
         text-transform: none;
 
         @include media-breakpoint-up(lg) {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
             display: inline-block;
 
         }
