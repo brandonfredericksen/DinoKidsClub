@@ -2,14 +2,31 @@
 @use '../components/mixins' as *;
 
 .intro-section {
-    background: $gradient;
-    background-image:url('../../images/bg.png');
+    background: $bgGradient;
     padding: 10rem 0 0 0;
     width: 100%; 
     height: 100%;
+    position: relative;
 
     svg {
-        margin-bottom:-10px;
+        margin-bottom:-2px;
+        z-index: 1;
+        position: relative;
+    }
+
+    #bgintro {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image:url('../../images/bg.png');
+        z-index:1;
+    }
+
+    .bgIntroContainer {
+        z-index: 2;
+        position: relative;
     }
 }
 
