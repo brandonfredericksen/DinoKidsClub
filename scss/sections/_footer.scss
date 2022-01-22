@@ -4,7 +4,7 @@
 
 .footer {
     padding-top: 1rem;
-    background-color: $footer;
+    background: $footerGradient;
 }
 
 // STYLE THE CONTACT-BOX CONTENT 
@@ -98,26 +98,25 @@
 
 // STYLE THE COPYRIGHT  CONTENT 
 .footer-bottom {
-    background-color: $footer;
+    color:#ccc;
 
     &__copyright {
-        color: #bfffe5;
         font-weight: 400;
-        
 
         a {
-            color: $gray-300;
+            color: #afffdd;
             text-decoration: none;
 
             &:hover {
-                color: $primary;
-                text-decoration: underline;
-             
+                color: #fff;
             }
         }
     }
 }
 
+.footerAsSeen {
+    max-width: 150px;
+}
 
 // STYLE THE BACK TO TOP BUTTON 
 .back-to-top {

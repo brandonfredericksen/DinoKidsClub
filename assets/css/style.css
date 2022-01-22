@@ -11203,7 +11203,7 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  background-color: #1f3a46;
+  background: linear-gradient(180deg, #20ca81, #039ae5);
 }
 
 .contact-box {
@@ -11278,19 +11278,21 @@ textarea.form-control-lg {
 }
 
 .footer-bottom {
-  background-color: #1f3a46;
+  color: #ccc;
 }
 .footer-bottom__copyright {
-  color: #bfffe5;
   font-weight: 400;
 }
 .footer-bottom__copyright a {
-  color: #dee2e6;
+  color: #afffdd;
   text-decoration: none;
 }
 .footer-bottom__copyright a:hover {
-  color: #039ae5;
-  text-decoration: underline;
+  color: #fff;
+}
+
+.footerAsSeen {
+  max-width: 150px;
 }
 
 .back-to-top {

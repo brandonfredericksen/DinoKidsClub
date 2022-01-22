@@ -2,7 +2,7 @@
 $purple-dark:  #31a5f3;
 $purple-light:  #6ee5f5;
 $pink:    #f37b35;
-$footer: #1f3a46;
+$footer: #11181b;
 
 $light-pink: #ffadadff;
 $deep-champagne: #ffd6a5ff;
@@ -19,6 +19,7 @@ $light-green: #24e190;
 /* SCSS Gradient */
 $gradient: linear-gradient(270deg, #20ca81, #039ae5);
 $bgGradient: linear-gradient(270deg, #73cdf6, #039ae5);
+$footerGradient: linear-gradient(180deg, #20ca81, #039ae5); 
 // #######################################
 //		NO NEED TO CUSTOM THE GRAY COLOR IF YOU DO NOT
 // #######################################
